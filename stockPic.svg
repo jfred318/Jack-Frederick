@@ -28,8 +28,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.47579226"
-     inkscape:cx="376.21461"
-     inkscape:cy="721.95373"
+     inkscape:cx="334.17946"
+     inkscape:cy="558.01664"
      inkscape:window-width="1312"
      inkscape:window-height="662"
      inkscape:window-x="0"
@@ -39,14 +39,7 @@
      id="defs1" /><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><rect
-       style="fill:#2d2f41;fill-opacity:1;fill-rule:evenodd;stroke:#13410e;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke"
-       id="rect6"
-       width="190"
-       height="165"
-       x="10"
-       y="65"
-       ry="15.57052" /><g
+     id="layer1"><g
        id="g6"
        transform="matrix(0.98140274,0,0,0.9976302,2.4413597,-4.5633603)"><image
          width="86.783333"
