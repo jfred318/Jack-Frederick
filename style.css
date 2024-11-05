@@ -53,7 +53,6 @@ body {
     margin: 0;
 }
 
-
 .profile-section {
     display: flex;
     align-items: center;
@@ -68,8 +67,8 @@ body {
     height: auto;
     border-radius: 50%; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    
 }
+
 .content {
     margin: 20px auto;
     width: 80%;
@@ -80,33 +79,60 @@ body {
 
 .stockPic-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     margin: 20px auto;
     width: 80%;
+    gap: 40px;
+}
+
+.image-slider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .stockPic-image {
     width: 450px;
-    height: 300px;
-    object-fit: cover;
     height: auto;
+    object-fit: cover;
     margin: 0;
     padding: 0;
     box-shadow: none;
 }
 
 .bio-text {
-    max-width: 500px; 
+    width: 100%;
+    max-width: 800px;
     font-size: 18px;
     line-height: 1.6;
     color: white;
 }
+
+.bio-text h1 {
+    margin-bottom: 20px;
+}
+
+.bio-text p {
+    margin-bottom: 30px;
+}
+
 .arrow {
+    position: absolute;
     font-size: 24px;
     color: white;
     cursor: pointer;
-    margin: 0 10px;
+    padding: 10px;
+}
+
+#left-arrow {
+    left: 20px;
+}
+
+#right-arrow {
+    right: 20px;
 }
 
 .hidden {
