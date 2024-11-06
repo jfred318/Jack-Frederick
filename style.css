@@ -1,14 +1,14 @@
 .linkedin-logo {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 35px;
     margin-top: 20px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 25%;
     transition: transform 0.2s ease;
 }
 
 .linkedin-logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 768px) {
@@ -161,7 +161,6 @@ body {
 }
 
 .arrow {
-    position: absolute;
     font-size: 24px;
     color: white;
     cursor: pointer;
