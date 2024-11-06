@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -76,33 +77,21 @@ body {
     flex-shrink: 0;
 }
 
-.stockPic-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 1200px;
-    gap: 40px;
-    padding: 0 15px;
+
+.linkedin-logo {
+    width: 55px;
+    height: 40px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 95%;
 }
 
-.image-slider {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.stockPic-image {
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    object-fit: cover;
-    margin: 0;
-    padding: 0;
-    box-shadow: none;
+.linkedin-logo:hover {
+    transform: scale(1.1);
 }
 
 .bio-text {
@@ -133,29 +122,6 @@ body {
     padding: 0 20px;
 }
 
-.arrow {
-    position: absolute;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-}
-
-#left-arrow {
-    left: 0;
-}
-
-#right-arrow {
-    right: 0;
-}
-
-.hidden {
-    display: none;
-}
-
-body > h1 {
-    display: none;
-}
 
 @media screen and (max-width: 768px) {
     .banner h1 {
@@ -179,9 +145,8 @@ body > h1 {
         height: 180px;
     }
 
-    .stockPic-container {
-        gap: 20px;
-        padding: 0 10px;
+    .linkedin-logo {
+        width: 30px;
     }
 
     .bio-text {
@@ -223,9 +188,8 @@ body > h1 {
         height: 150px;
     }
 
-    .stockPic-container {
-        width: 95%;
-        gap: 15px;
+    .linkedin-logo {
+        width: 25px; 
     }
 
     .bio-text h1 {
@@ -240,10 +204,5 @@ body > h1 {
     .content {
         font-size: 15px;
         padding: 0 15px;
-    }
-
-    .arrow {
-        font-size: 20px;
-        padding: 5px;
     }
 }
