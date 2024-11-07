@@ -271,17 +271,17 @@ body > h1 {
 
     .arrow {
         font-size: 20px;
-        padding: 15px;
+        padding: 10px;
     }
 
     #left-arrow {
         position: absolute;
-        left: 11px; 
+        left: 18px; 
     }
 
     #right-arrow {
         position: absolute;
-        right: 11px; 
+        right: 18px; 
     }
 
     .logo {
