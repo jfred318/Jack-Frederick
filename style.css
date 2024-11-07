@@ -1,6 +1,6 @@
 .logo {
-    width: 45px;
-    height: 35px;
+    width: 50px;
+    height: 40px;
    
     cursor: pointer;
     border-radius: 25%;
@@ -11,33 +11,6 @@
     transform: scale(1.2);
 }
 
-
-
-@media screen and (max-width: 768px) {
-    .linkedin-logo {
-        width: 25px;
-        height: 25px;
-    }
-    .stacked-links {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start; 
-        gap: 10px; 
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .linkedin-logo {
-        width: 22px;
-        height: 22px;
-    }
-    .stacked-links {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start; 
-        gap: 10px; 
-    }
-}
 
 * {
     margin: 0;
@@ -197,6 +170,7 @@ body > h1 {
     display: none;
 }
 
+
 @media screen and (max-width: 768px) {
     .banner h1 {
         font-size: 40px;
@@ -232,9 +206,17 @@ body > h1 {
         font-size: 28px;
     }
 
-    .linkedin-logo {
+    .logo {
         width: 25px;
         height: 25px;
+        
+    }
+    .stacked-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        gap: 30px; 
+    
     }
 }
 
@@ -302,8 +284,16 @@ body > h1 {
         right: 15px; 
     }
 
-    .linkedin-logo {
+    .logo {
         width: 22px;
         height: 22px;
+        
+    
+    }
+    .stacked-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    gap: 10px; 
     }
 }
