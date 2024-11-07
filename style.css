@@ -1,20 +1,28 @@
-.linkedin-logo {
+.logo {
     width: 45px;
     height: 35px;
-    margin-top: 20px;
+   
     cursor: pointer;
     border-radius: 25%;
     transition: transform 0.2s ease;
 }
 
-.linkedin-logo:hover {
+.logo:hover {
     transform: scale(1.2);
 }
+
+
 
 @media screen and (max-width: 768px) {
     .linkedin-logo {
         width: 25px;
         height: 25px;
+    }
+    .stacked-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        gap: 10px; 
     }
 }
 
@@ -22,6 +30,12 @@
     .linkedin-logo {
         width: 22px;
         height: 22px;
+    }
+    .stacked-links {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; 
+        gap: 10px; 
     }
 }
 
@@ -275,7 +289,17 @@ body > h1 {
 
     .arrow {
         font-size: 20px;
-        padding: 5px;
+        padding: 15px;
+    }
+
+    #left-arrow {
+        position: absolute;
+        left: 15px; 
+    }
+
+    #right-arrow {
+        position: absolute;
+        right: 15px; 
     }
 
     .linkedin-logo {
